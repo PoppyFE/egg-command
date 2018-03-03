@@ -1,10 +1,10 @@
 {
   "name": "egg-command",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "deploy tool for egg project",
   "main": "index.js",
   "bin": {
-    "egg-scripts": "bin/egg-command.js",
+    "egg-command": "bin/egg-command.js",
     "eggCmd": "bin/egg-command.js"
   },
   "dependencies": {
