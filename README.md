@@ -7,7 +7,7 @@ deploy tool for egg project.
 ## Install
 
 ```bash
-$ npm i egg-scripts --save
+$ npm i egg-command --save
 ```
 
 ## Usage
