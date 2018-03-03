@@ -12,7 +12,7 @@ const mm = require('mm');
 const utils = require('./utils');
 
 describe('test/stop.test.js', () => {
-  const eggBin = require.resolve('../bin/egg-scripts.js');
+  const eggBin = require.resolve('../bin/egg-command.js');
   const fixturePath = path.join(__dirname, 'fixtures/example');
   const homePath = path.join(__dirname, 'fixtures/home');
   const logDir = path.join(homePath, 'logs');

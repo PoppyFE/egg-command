@@ -4,7 +4,7 @@ const coffee = require('coffee');
 
 describe('test/egg-scripts.test.js', () => {
   let app;
-  const eggBin = require.resolve('../bin/egg-scripts.js');
+  const eggBin = require.resolve('../bin/egg-command.js');
 
   it('show help', done => {
     app = coffee.fork(eggBin, [ '--help' ]);
