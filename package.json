@@ -1,6 +1,6 @@
 {
   "name": "egg-command",
-  "version": "2.5.5",
+  "version": "2.5.6",
   "description": "deploy tool for egg project",
   "main": "index.js",
   "bin": {
